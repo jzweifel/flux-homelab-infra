@@ -9,10 +9,10 @@ spec:
   chart:
     spec:
       chart: metallb
-      version: 0.12.1
+      version: 3.0.10
       sourceRef:
         kind: HelmRepository
-        name: metallb
+        name: bitnami
         namespace: flux-system
   install:
     createNamespace: true
