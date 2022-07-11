@@ -16,11 +16,8 @@ spec:
         namespace: flux-system
   values:
     replicaCount: 2
-    tunnelID: "${CLOUDFLARE_TUNNEL_ID}"
-    auth:
-      accountTag: "${CLOUDFLARE_ACCOUNT_TAG}"
-      tunnelName: "${CLOUDFLARE_TUNNEL_NAME}"
-      tunnelSecret: "${CLOUDFLARE_TUNNEL_SECRET}"
+    tunnelID: "89c9cf4a-a909-4652-ad52-8957568b3725"
+    existingSecret: cloudflared
     ingress:
     - hostname: echo-server.zweifel.cloud
       service: http://echo-server:8080
