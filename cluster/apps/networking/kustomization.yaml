@@ -4,7 +4,7 @@ kind: Kustomization
 resources:
   - namespace.yaml
   - cloudflare-ddns
-  - external-dns
+  # - external-dns
   - ingress-nginx
   - metallb
   - k8s-gateway
