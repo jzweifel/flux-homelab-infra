@@ -13,4 +13,5 @@ resources:
   - metallb.yaml
   - metrics-server.yaml
   - stakater.yaml
+  - terraria.yaml
   - weaveworks-kured.yaml
