@@ -92,6 +92,8 @@ data:
     # in the connection from cloudflared to your local service, not from the internet to cloudflared.
     - hostname: hello.zweifel.cloud
       service: hello_world
+    - hostname: terraria.zweifel.cloud
+      service: tcp://10.0.0.192:7777
     - hostname: "*.zweifel.cloud"
       service: http://10.0.0.192
     # This rule matches any traffic which didn't match a previous rule, and responds with HTTP 404.

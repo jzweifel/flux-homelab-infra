@@ -75,6 +75,8 @@ spec:
           value: lost-in-space
         - name: SHOW_DETAILS
           value: "false"
+    tcp:
+      "7777": "default/terraria:7777"
   valuesFrom:
     # Cloudflare Networks
     # https://www.cloudflare.com/ips/
